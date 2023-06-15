@@ -1,0 +1,4 @@
+# Cloud Build & Deploy
+glowing-reserve-388401 -> ID
+gcloud builds submit --tag gcr.io/glowing-reserve-388401/index
+gcloud run deploy --image gcr.io/glowing-reserve-388401/index --platform managed
